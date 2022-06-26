@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-sm  navbar-light bg-success">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+     
+      <li class="nav-item">
+        <a class="nav-link text-white" routerLink="personal-details">PersonalDetails</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" routerLink="contact-details">ContactDetails</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link text-white" routerLink="skills">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" routerLink="work-experience">WorkExperience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" routerLink="wizard-finished">WizardFinished</a>
+      </li>
+     
+  
+    </ul>
+   
+  </div>
+</nav>
+
+<div class="container-fluid">
+
+  <div class="card mt-4">
+    <div class="card-header">
+     Profile Wizard
+    </div>
+    <div class="card-body">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+ 
+</div>
+
